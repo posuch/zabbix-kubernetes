@@ -122,7 +122,11 @@ sub get_uniq {
         data => [],
     };
 
-    push @{$toZabbix->{data}},values %uniq;
+      if ($DISCOVERY eq 'containers') {
+          push @{$toZabbix->{data}},values @RESULT;
+       } else {
+          push @{$toZabbix->{data}},values %uniq;
+    }
 
     return $toZabbix;
 }
