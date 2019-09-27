@@ -1,4 +1,4 @@
-##documentation is not fully udpated
+#documentation is not fully udpated !!!!
 # Description
 zabbix-kubernetes is "plugin" used for Kubernetes monitoring. Easy to deploy and configure. Addition of all metrics for pods, deployments, services, etc are done automatically. Script designed to make addition of new metrics easy w/o interaction with scripting or console.
 # Installation
